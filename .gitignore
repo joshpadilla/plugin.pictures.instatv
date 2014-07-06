@@ -52,3 +52,9 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# Mac OSX related files
+.DS_Store
+
+# Pycharm/JetBrains related file
+.idea
+
