@@ -13,13 +13,13 @@ xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, _
 # import oauth2 as oauth
 # import urlparse 
 # 
-# consumer_key           = "CONSUMER_KEY"
-# consumer_secret        = "CONSUMER_SECRET"
+# consumer_key           = "INSTATV_KEY_ACTUAL_VALUE"
+# consumer_secret        = "INSTATV_SECRET_ACTUAL_VALUE"
 # consumer = oauth.Consumer(consumer_key, consumer_secret)
 # client = oauth.Client(consumer)
 #
 #
-# request_token_url      = 'https://api.linkedin.com/uas/oauth/requestToken'
+# request_token_url      = 'https://api.montrosian.org/oauth/requestToken'
 # resp, content = client.request(request_token_url, "POST")
 # if resp['status'] != '200':
 #    raise Exception("Invalid response %s." % resp['status'])
@@ -34,7 +34,7 @@ xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(__addonname__,line1, time, _
 #
 #
 # Provider redirect
-# authorize_url =      'https://api.linkedin.com/uas/oauth/authorize'
+# authorize_url =      'https://api.montrosian.org/oauth/authorize'
 # print "Go to the following link in your browser:"
 # print "%s?oauth_token=%s" % (authorize_url, request_token['oauth_token'])
 # print 
