@@ -1,4 +1,4 @@
 plugin.pictures.instatv
 =======================
 
-An Instagram Addon Plugin for the XBMC Platform.
+An Instagram Addon Plugin for the Kodi Platform.
